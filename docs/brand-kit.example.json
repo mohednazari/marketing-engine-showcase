@@ -1,0 +1,37 @@
+{
+  "slug": "example-app",
+  "name": "Example App",
+  "status": "active",
+  "default_autonomy": "review",
+  "timezone": "America/New_York",
+  "brand_kit": {
+    "positioning": "The fastest way to do X — without the bloat.",
+    "voice": {
+      "tone": ["calm", "plain", "slightly contrarian"],
+      "avoid": ["hype", "exclamation marks", "emoji in headlines"],
+      "reading_level": "8th grade"
+    },
+    "audience": {
+      "primary": "Busy professionals who bounced off heavier tools",
+      "pains": ["overwhelm", "tool fatigue", "no time"]
+    },
+    "languages": ["en", "ar"],
+    "channels": {
+      "instagram": { "enabled": true, "cadence_per_week": 5, "formats": ["reel", "carousel"] },
+      "tiktok":    { "enabled": true, "cadence_per_week": 5, "formats": ["short_video"] },
+      "x":         { "enabled": true, "cadence_per_week": 7, "formats": ["text", "thread"] },
+      "email":     { "enabled": true, "cadence_per_week": 1, "provider": "resend" }
+    },
+    "content_pillars": [
+      { "name": "contrarian_pov",     "weight": 0.4 },
+      { "name": "product_in_action",  "weight": 0.3 },
+      { "name": "relatable_pain",     "weight": 0.2 },
+      { "name": "social_proof",       "weight": 0.1 }
+    ],
+    "guardrails": {
+      "claims_require_source": false,
+      "banned_phrases": ["guaranteed", "#1", "cure"],
+      "human_review_required": ["pricing", "comparisons"]
+    }
+  }
+}
