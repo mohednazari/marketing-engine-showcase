@@ -32,7 +32,7 @@ Core model:
 Next.js (App Router) · Vercel · Vercel Cron · Neon Postgres + Drizzle ORM · Claude API · Postiz · Resend · TypeScript
 
 ## Status
-Deployed · **~88 tests** · multi-tenant, [N] products synced · currently running a live day-zero growth campaign on **5 Minutes** — *results updating here.*
+Deployed · **~88 tests** · multi-tenant, 5 products synced · currently running a live day-zero growth campaign on **5 Minutes** — *results updating here.*
 
 ---
 · built solo by Mohammad Nazari · `mohed.nazari@gmail.com`
