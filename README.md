@@ -28,6 +28,13 @@ Core model:
 - **Real sends are double-gated** — publishing and email require explicit approval, logged in `approval_events`.
 - Designed so a high-trust brand (religious or financial) can run gated while a low-stakes one runs fully autonomous.
 
+## In action
+
+![Review queue — drafts auto-scored, then human-approved before publishing](docs/screenshots/review-queue.png)
+
+*The review queue: each draft is auto-scored on hook, voice, CTA, format & specificity, then held for human approve / edit / reject — nothing publishes unwatched.*
+
+
 ## Stack
 Next.js (App Router) · Vercel · Vercel Cron · Neon Postgres + Drizzle ORM · Claude API · Postiz · Resend · TypeScript
 
