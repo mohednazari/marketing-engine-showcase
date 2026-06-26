@@ -8,7 +8,7 @@
 Every product moves through four stages on a schedule — **Plan → Generate → Publish → Track**:
 
 1. **Plan** — turns a campaign brief into concrete content briefs (theme, angle, channel, cadence).
-2. **Generate** — drafts real copy via the Claude API, in each product's native voice and language (incl. bilingual EN/AR).
+2. **Generate** — drafts real copy via the Claude API in each product's native voice and language (incl. bilingual EN/AR), then scores every draft on hook, voice, CTA, format & specificity — gating weak ones before they reach human review.
 3. **Publish** — pushes approved content to each channel: social via Postiz, email via Resend, blogs as git-committed Markdown.
 4. **Track** — pulls per-post metrics back in and reports what's working, feeding the next Plan cycle.
 
